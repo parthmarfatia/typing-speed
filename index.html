@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Speed Typer</title>
+  </head>
+  <body class="mt-5 mr-5 ml-5 mb-5 bg-light">
+    <div class="row mb-5">
+      <div class="text-center col-sm-12">
+        <h1>Speed Typer</h1>
+      </div>
+    </div>
+    <div class="row mb-5 text-center">
+      <div class="col-sm-4 text-secondary">
+        <h5>Speed: <span id="currentSpeed" class="text-info"></span></h5>
+      </div>
+      <div class="col-sm-4 text-secondary">
+        <h5>Accuracy: <span id="accuracy" class="text-info"></span></h5>
+      </div>
+      <div class="col-sm-4 text-secondary">
+        <h5>Average Speed: <span id="avgSpeed" class="text-info"></span></h5>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <textarea
+        spellcheck="false"
+        id="inputVal"
+        style="resize: none; width: 600px"
+        rows="5"
+        class="bg-transparent col-sm-6 position-fixed"
+        type="text"
+      ></textarea>
+    </div>
+    <div class="row justify-content-center">
+      <textarea
+        spellcheck="false"
+        id="placeHolderVal"
+        style="resize: none; width: 600px"
+        rows="5"
+        class="bg-transparent col-sm-6"
+        type="text"
+      ></textarea>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
